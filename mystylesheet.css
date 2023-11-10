@@ -1,0 +1,69 @@
+/*Source: https://www.30secondsofcode.org/css/s/footer-at-the-bottom*/
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*Source: https://www.w3schools.com/cssref/css3_pr_overflow-x.php*/
+  overflow-x: hidden;
+}
+
+/*Source: https://www.w3schools.com/howto/howto_css_style_header.asp*/
+/*Source: https://www.w3schools.com/tags/att_width.asp*/
+header {
+  padding: 80px;
+  text-align: center;
+  background: #bc817b;
+  color: #efebeb;
+  font-size: 35px;
+}
+/*Source: https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+/*Source: https://www.30secondsofcode.org/css/s/footer-at-the-bottom*/
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #bc817b;
+  color: #efebeb;
+  font-size: 15px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  
+}
+/*Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table3*/
+li {
+  display: inline;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+
+/*Source: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a36666;
+}
+
+li a {
+  display: block;
+  color: #eee7e7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2a2727;
+}
